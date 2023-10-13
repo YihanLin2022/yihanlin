@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Agent Playground</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body>
+			<div class="project-description-new" style="position: fixed;">
+				<div>
+					<h2>Agent Playground</h2>
+				</div>
+	
+				<div>
+					<p style="line-height: 24px; font-size: 18px;">
+						This Unity project manages CPU multithreaded autonomous agents vis Unity's Job System. 
+                        The agent system incorporates a variety of forces, some of which are agent-centric 
+                        and others environnment-centric. To optimize the overall performance, a simple spatial 
+                        binning system has been developed and the agent entities are drawn directly in graphics, 
+                        through GPU instancing. The agent environment is expressed as a behind the scenes 3D voxel 
+                        grid of customizable resolution. The voxel grid enables the agents' stigmergic behaviours 
+                        as well as the meshing of the agents' paths through a Marching Cubes algorithm. The meshed 
+                        paths are also drawn directly in the GPU but there is the option to export selected mesh "frames" 
+                        in .obj file format.
+					</p>      
+				</div>
+			</div>
+	
+			<div class="project-description-new">
+			</div>
+	
+			<div class="project-image-new" >
+                <video class="inner-image" src="AgentPlayground/setting.mp4" autoplay loop muted></video>
+                <p><strong>User interface controlling all forces.</strong> </p>
+                <video class="inner-image" src="AgentPlayground/mesh.mp4" autoplay loop muted></video>
+                <p><strong>User interface controlling visibility of agent and mesh.</strong> </p>
+                <video class="inner-image" src="AgentPlayground/phone2.mp4" autoplay loop muted></video>
+                <p><strong>Building application for detecting target image and trigger effect. </strong> </p>
+			</div>		
+	</body>
+</html>
